@@ -27,8 +27,8 @@ skills/
 
 Skills are task-specific instruction sets loaded on demand by the agent.
 
-| Skill | Trigger | Description |
-|---|---|---|
+| Skill        | Trigger                              | Description                                                  |
+| ------------ | ------------------------------------ | ------------------------------------------------------------ |
 | `git-commit` | Commit or branch operation requested | Branch naming, Conventional Commits format, Gitmoji prefixes |
 
 ## Usage
@@ -36,6 +36,8 @@ Skills are task-specific instruction sets loaded on demand by the agent.
 1. Install skills with:
    ```bash
    gh skill install jboz/airails <skill-name>
+   # or
+   npx skills add https://github.com/jboz/airails.git -g -y -s <skill-name>
    ```
 2. The agent will automatically load `AGENTS.md` at session start.
 3. Skills are loaded contextually when the agent detects a matching task.
