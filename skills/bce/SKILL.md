@@ -26,7 +26,7 @@ A complete structure for an orders business component:
 ```text
 com.acme.orders
 ├── boundary/
-│   ├── in/
+│   ├── in/                            # optional package
 │   │   ├── OrderResource.java         # inbound port: REST facade exposed to external actors
 │   │   ├── OrderHistoryResource.java
 │   │   ├── dto/
@@ -55,6 +55,7 @@ com.acme.orders
 ```
 
 - `orders/boundary` holds the inbound and outbound ports plus its REST adapter and DTO; `orders/control` and `orders/entity` are never reached by external actors.
+- `orders/boundary/in` is optional as the default boundary is an inbound direction
 - `pricing` has no adapter: it consume an external system, call directly from a control without going through a facade.
 - `stock` is a more complex outbound port that need an adapter
 - `CreateOrderCommand.java` and `OutOfStockEvent.java` are incoming events that the bounded context
