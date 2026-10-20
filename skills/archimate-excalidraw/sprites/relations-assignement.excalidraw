@@ -1,0 +1,102 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "association-assignment-arrow",
+      "type": "arrow",
+      "x": 333.34518589648434,
+      "y": 340.1254711035157,
+      "width": 268.8000183105469,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2112656288,
+      "version": 390,
+      "versionNonce": 56476466,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "association-assignment-text",
+          "type": "text"
+        }
+      ],
+      "updated": 1792505944080,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          268.8000183105469,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": "circle",
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "association-assignment-text",
+      "type": "text",
+      "x": 437.87523045214834,
+      "y": 327.6254711035157,
+      "width": 59.73992919921875,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 643375008,
+      "version": 44,
+      "versionNonce": 1018740974,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792505944080,
+      "link": null,
+      "locked": false,
+      "text": "assign",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "association-assignment-arrow",
+      "originalText": "assign",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

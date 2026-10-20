@@ -1,6 +1,6 @@
 # bce
 
-An [AIrails.dev](https://airails.dev) skill defining the generic, composable [Boundary-Control-Entity (BCE/ECB)](https://bce.design) architecture pattern.
+A skill defining the generic, composable [Boundary-Control-Entity (BCE/ECB)](https://bce.design) architecture pattern.
 
 ## Scope
 
