@@ -11,6 +11,8 @@ A skill for producing ArchiMate 3.2 diagrams in Excalidraw with consistent notat
 
 This skill defines diagram conventions only. It does not define software architecture, implementation, testing, or deployment rules.
 
+![meta-model](archimate.metamodel.excalidraw.png)
+
 ## Assets
 
 - `SKILL.md` — authoritative instructions and constraints

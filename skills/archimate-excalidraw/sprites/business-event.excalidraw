@@ -1,0 +1,176 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "z3jIe67lbP1vUDJCG_oon",
+      "type": "rectangle",
+      "x": 244.45699728646332,
+      "y": 167.27018919271632,
+      "width": 353.08600542707336,
+      "height": 121.05956668292733,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "n1S_Ht45xN6dHUhxBN7Q-"
+      ],
+      "frameId": null,
+      "index": "aA",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 976775233,
+      "version": 3606,
+      "versionNonce": 1209721825,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737892448,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "ZMW2_GnhztNYkAKhbU4FJ",
+      "type": "text",
+      "x": 286.82933878426456,
+      "y": 195.43648972336905,
+      "width": 211.48197769596038,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#1e1e1e",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "n1S_Ht45xN6dHUhxBN7Q-"
+      ],
+      "frameId": null,
+      "index": "aB",
+      "roundness": null,
+      "seed": 1784920097,
+      "version": 3117,
+      "versionNonce": 1316595631,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737895645,
+      "link": null,
+      "locked": false,
+      "text": "Business\nEvent name",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Business\nEvent name",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "aSphMBMozJ1Njc7oCiicy",
+      "type": "line",
+      "x": 519.6458328154717,
+      "y": 182.39660773095966,
+      "width": 56.02091706151628,
+      "height": 36.71381551307155,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "n1S_Ht45xN6dHUhxBN7Q-"
+      ],
+      "frameId": null,
+      "index": "aC",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1012534273,
+      "version": 5115,
+      "versionNonce": 2041954241,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737892448,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          27.26970414540206,
+          -0.6364765751029355
+        ],
+        [
+          43.08346530968078,
+          -0.4977565781264087
+        ],
+        [
+          52.76017774828785,
+          5.510504278739447
+        ],
+        [
+          56.02091706151628,
+          18.68868763246825
+        ],
+        [
+          51.25558430365172,
+          30.663513940111216
+        ],
+        [
+          43.479819630601035,
+          35.53143952333633
+        ],
+        [
+          23.965677670148217,
+          36.07733893796862
+        ],
+        [
+          0.4685132672041477,
+          34.02857708698556
+        ],
+        [
+          2.723574178838041,
+          24.738025613274363
+        ],
+        [
+          6.086870357611286,
+          16.619451904587105
+        ],
+        [
+          3.949711780998596,
+          8.96059156701842
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

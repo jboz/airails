@@ -1,0 +1,174 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "IgVOsQJi7nR0z0-bqIOyv",
+      "type": "rectangle",
+      "x": 409.73185860103194,
+      "y": 295.4181906722697,
+      "width": 349.4278782264381,
+      "height": 133.27022720094178,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "6KcANFWIFBlDUjU1Djou_"
+      ],
+      "frameId": null,
+      "index": "aB",
+      "roundness": null,
+      "seed": 722519884,
+      "version": 1422,
+      "versionNonce": 170785484,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737985136,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "KRAhy0ZOgz4BErql89-Dw",
+      "type": "text",
+      "x": 501.32793760392224,
+      "y": 329.0974162083098,
+      "width": 170.32394409179688,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "6KcANFWIFBlDUjU1Djou_"
+      ],
+      "frameId": null,
+      "index": "aC",
+      "roundness": null,
+      "seed": 1989279180,
+      "version": 1557,
+      "versionNonce": 1329509364,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737991285,
+      "link": null,
+      "locked": false,
+      "text": "Application\nService name",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "originalText": "Application\nService name",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "qEbBWEbe4iyxQZBOGCiFi",
+      "type": "line",
+      "x": 704.4262314876701,
+      "y": 309.9994761217399,
+      "width": 52.083262159580386,
+      "height": 23.37543352709079,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "6KcANFWIFBlDUjU1Djou_"
+      ],
+      "frameId": null,
+      "index": "aD",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1504207948,
+      "version": 3009,
+      "versionNonce": 1924972876,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737985136,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          15.552839032081854,
+          0.10602833189624626
+        ],
+        [
+          29.949532387233408,
+          0.1952768196868452
+        ],
+        [
+          38.75911666116922,
+          4.060820414079099
+        ],
+        [
+          41.72766181092634,
+          12.539287554952491
+        ],
+        [
+          37.38934951838934,
+          20.24354910920455
+        ],
+        [
+          30.310369480888752,
+          23.37543352709079
+        ],
+        [
+          19.88604458124681,
+          23.131245490031905
+        ],
+        [
+          0.5439531674129761,
+          23.301827581032168
+        ],
+        [
+          -7.641729855473365,
+          19.516161721645307
+        ],
+        [
+          -10.35560034865404,
+          12.207682022304168
+        ],
+        [
+          -7.633573205019044,
+          4.0650074449585585
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

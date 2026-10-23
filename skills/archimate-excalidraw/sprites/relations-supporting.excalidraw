@@ -1,0 +1,102 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "association-serving-arrow",
+      "type": "arrow",
+      "x": 331.4776928964843,
+      "y": 479.32545310351566,
+      "width": 268.8000183105469,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1467396704,
+      "version": 553,
+      "versionNonce": 550779330,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "association-serving-text",
+          "type": "text"
+        }
+      ],
+      "updated": 1792738343158,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          268.8000183105469,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "association-serving-text",
+      "type": "text",
+      "x": 428.27772646582025,
+      "y": 466.82545310351566,
+      "width": 75.199951171875,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 1857119840,
+      "version": 65,
+      "versionNonce": 956652254,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792738342467,
+      "link": null,
+      "locked": false,
+      "text": "support",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "association-serving-arrow",
+      "originalText": "support",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

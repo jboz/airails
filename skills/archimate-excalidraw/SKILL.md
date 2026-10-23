@@ -43,10 +43,18 @@ Use only the elements defined by these sprite files:
 - `motivation-stakeholder.excalidraw`: ArchiMate Motivation element `Stakeholder`. _Represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture._ Replace the text "Stakeholder name" with the actual name of the stakeholder in your diagram.
 - `strategy-capability.excalidraw`: ArchiMate Strategy element `Capability`. _Represents an ability that an active structure element, such as an organization, person, or system, possesses._ Replace the text "Capability name" with the actual name of the capability in your diagram.
 - `strategy-value-stream.excalidraw`: ArchiMate Strategy element `Value Stream`. _Represents a sequence of activities that create an overall result for a customer, stakeholder, or end user._ Replace the text "Value Stream text" with the actual text of the value stream in your diagram.
+- `strategy-value-stream-stage.excalidraw`: ArchiMate Strategy element `Value Stream Stage`. _Represents a stage within a value stream._ Replace the text "Value Stream Stage text" with the actual text of the value stream stage in your diagram.
 - `business-function.excalidraw`: ArchiMate Business element `Business Function`. _Represents a collection of behavior based on a chosen set of criteria, such as required resources, competences, knowledge, or business objects._ Replace the text "Function name" with the actual name of the business function in your diagram.
-- `business-process.excalidraw`: ArchiMate Business element `Business Process`. _Represents a behavior element that groups behavior based on a chosen set of criteria, such as required resources, competences, knowledge, or business objects._ Replace the text "Process name" with the actual name of the business process in your diagram.
+- `business-process.excalidraw`: ArchiMate Business element `Business Process`. _Represents a behavior element that groups behavior based on a chosen set of criteria, such as required resources, competences, knowledge, or business objects._ Replace the text "Business Process name" with the actual name of the business process in your diagram.
+- `business-event.excalidraw`: ArchiMate Business element `Business Event`. _Represents a behavior element that denotes something that happens (or could happen) that influences behavior._ Replace the text "Business Event name" with the actual name of the business event in your diagram.
+- `business-object.excalidraw`: ArchiMate Business element `Business Object`. _Represents a passive element that has relevance from a business perspective._ Replace the text "Business Object name" with the actual name of the business object in your diagram.
+- `business-role.excalidraw`: ArchiMate Business element `Business Role`. _Represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular context._ Replace the text "Business Role name" with the actual name of the business role in your diagram.
+- `business-actor.excalidraw`: ArchiMate Business element `Business Actor`. _Represents an organizational entity that is capable of performing behavior._ Replace the text "Business Actor name" with the actual name of the business actor in your diagram.
 - `application-component.excalidraw`: ArchiMate Application element `Application Component`. _Represents a modular, deployable, and replaceable part of a software system that encapsulates its behavior and data._ Replace the text "Application component name" with the actual name of the application component in your diagram.
 - `application-interface.excalidraw`: ArchiMate Application element `Application Interface`. _Represents a point of access where an application service is made available to a user, another application component, or a node._ No text need for application interface.
+- `application-service.excalidraw`: ArchiMate Application element `Application Service`. _Represents a service that exposes the functionality of an application component._ Replace the text "Application service name" with the actual name of the application service in your diagram.
+- `application-object.excalidraw`: ArchiMate Application element `Application Object`. _Represents a passive element that is manipulated by behavior elements._ Replace the text "Application object name" with the actual name of the application object in your diagram.
+- `application-collaboration.excalidraw`: ArchiMate Application element `Application Collaboration`. _Represents a collaboration between two or more application components to perform collective behavior._ Replace the text "Application collaboration name" with the actual name of the application collaboration in your diagram.
 - `technology-artifact.excalidraw`: ArchiMate Technology element `Artifact`. _Represents a physical piece of data or information that is used or produced in a software development process, or by deployment and operation of a system._ Replace the text "Artifact name" with the actual name of the technology artifact in your diagram.
 
 If a requested concept is not represented by one of these sprites, do not invent a new shape in this skill and use a simple rectangle with a text and transparent background color instead.
@@ -60,27 +68,57 @@ ArchiMate Relationship elements. _Represents various types of associations betwe
 - `relations-specialization.excalidraw`: ArchiMate Relationship element `Specialization`. _Represents a relationship in which one element is a specialized version of another element._
 - `relations-composition.excalidraw`: ArchiMate Relationship element `Composition`. _Represents a relationship in which one element is composed of one or more other elements._
 - `relations-aggregation.excalidraw`: ArchiMate Relationship element `Aggregation`. _Represents a relationship in which one element is an aggregate of one or more other elements._
-- `relations-assignment.excalidraw`: ArchiMate Relationship element `Assignment`. _Represents a relationship in which one element is assigned to another element._
+- `relations-assignment.excalidraw`: ArchiMate Relationship element `Assignment`. _Represents the allocation of responsibility, performance of behavior, storage, or execution._
+- `relations-flow.excalidraw`: ArchiMate Relationship element `Flow`. _Represents transfer from one element to another._
+- `relations-supporting.excalidraw`: ArchiMate Relationship element `Supporting`. _Represents a relationship in which one element supports the behavior of another element._ 
 
 Allowed relationships between elements and types are defined in the ArchiMate specification. Use only the associations that are valid for the elements you are connecting. Here is a list of the allowed relationships between the elements defined in this skill:
-- Driver → Outcome: 
+- Stakeholder → Driver: 
   - Association type: Association
-- Outcome → Requirement:
-  - Association type: Realization
-- Outcome → Goal:
-  - Association type: Realization
+- Stakeholder → Value: 
+  - Association type: Association
+- Driver → Goal: 
+  - Association type: Association
 - Outcome → Value:
-  - Association type: Association
-- Goal → Stakeholder:
-  - Association type: Association
-- Stakeholder → Value Stream:
   - Association type: Association
 - Value Stream → Value:
   - Association type: Realization
-- Value Stream → Capability:
-  - Association type: Serving
-- Application Component → Application Interface:
+- Outcome → Requirement:
   - Association type: Association
+- Outcome → Goal:
+  - Association type: Realization
+- Value Stream → Value Stream Stage:
+  - Association type: Composition
+- Value Stream → Capability:
+  - Association type: Supporting
+- Capability → Capability:
+  - Association type: Aggregation
+- Business Process → Value Stream:
+  - Association type: Realization
+- Business Function → Business Process:
+  - Association type: Serving
+- Business Role → Business Process:
+  - Association type: Assignment
+- Business Actor → Business Process:
+  - Association type: Assignment
+- Business Role → Business Actor:
+  - Association type: Aggregation
+- Application Service → Business Function:
+  - Association type: Realization
+- Application Service → Business Object:
+  - Association type: Serving
+- Application Service → Business Event:
+  - Association type: Serving
+- Application Service → Application Interface:
+  - Association type: Association
+- Application Service → Application Interface:
+  - Association type: Flow
+- Application Component → Application Service:
+  - Association type: Aggregation
+- Application Component → Application Object:
+  - Association type: Serving
+- Application Collaboration → Application Service:
+  - Association type: Aggregation
 
 Mandatory checklist for each relationship:
 - Relationship type matches the allowed mapping above.

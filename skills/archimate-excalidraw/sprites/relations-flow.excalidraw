@@ -1,0 +1,102 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "association-specialization-arrow",
+      "type": "arrow",
+      "x": 319.08509589648435,
+      "y": 307.60368951757806,
+      "width": 268.8000183105469,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aC",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 358645664,
+      "version": 661,
+      "versionNonce": 1909514713,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "association-specialization-text",
+          "type": "text"
+        }
+      ],
+      "updated": 1792737709185,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          268.8000183105469,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "association-specialization-text",
+      "type": "text",
+      "x": 433.3351187846679,
+      "y": 295.10368951757806,
+      "width": 40.29997253417969,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aD",
+      "roundness": null,
+      "seed": 7310240,
+      "version": 76,
+      "versionNonce": 908160377,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737699857,
+      "link": null,
+      "locked": false,
+      "text": "flow",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "association-specialization-arrow",
+      "originalText": "flow",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

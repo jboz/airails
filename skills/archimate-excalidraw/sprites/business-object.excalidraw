@@ -1,0 +1,128 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "4CqGMefn_YZQdZqOTrkTs",
+      "type": "rectangle",
+      "x": 274.1999282836914,
+      "y": 146.81517130149268,
+      "width": 284.0001068115235,
+      "height": 163.56957805131168,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "S8v6n2clqu8vYd4Jk-lEV"
+      ],
+      "frameId": null,
+      "index": "aA",
+      "roundness": null,
+      "seed": 402174370,
+      "version": 980,
+      "versionNonce": 1045664382,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737909845,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Qu-fAbNSw4bOoHR7CmYtE",
+      "type": "line",
+      "x": 274.20006541960265,
+      "y": 213.32149418208473,
+      "width": 278.60751137527467,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "S8v6n2clqu8vYd4Jk-lEV"
+      ],
+      "frameId": null,
+      "index": "aB",
+      "roundness": null,
+      "seed": 989212002,
+      "version": 998,
+      "versionNonce": 1836618430,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737909845,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          278.60751137527467,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "INsvsDWZjZ8UdjOOCzHPj",
+      "type": "text",
+      "x": 306.3140176137349,
+      "y": 166.76796367541783,
+      "width": 219.7719268798828,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "S8v6n2clqu8vYd4Jk-lEV"
+      ],
+      "frameId": null,
+      "index": "aC",
+      "roundness": null,
+      "seed": 1615737122,
+      "version": 964,
+      "versionNonce": 920921534,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1792737919340,
+      "link": null,
+      "locked": false,
+      "text": "Business Object\nname",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Business Object\nname",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
