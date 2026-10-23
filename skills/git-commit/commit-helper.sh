@@ -13,6 +13,8 @@ FEAT_EMOJIS=(
 FIX_EMOJIS=("🐛" "🐝" "🕷️" "🐞" "🐜")
 
 SKIP_BRANCH_CHECK=0
+CACHE_DIR="${HOME}/.cache/commit-helper"
+LAST_MESSAGE_FILE=""
 
 usage() {
   cat <<'EOF'
@@ -42,6 +44,29 @@ parse_args() {
         ;;
     esac
   done
+}
+
+init_repo_cache() {
+  local repo_root repo_name repo_slug repo_hash
+
+  repo_root="$(git rev-parse --show-toplevel)"
+  repo_name="$(basename "$repo_root")"
+  repo_slug="$(echo "$repo_name" | tr -cs '[:alnum:]-_' '-')"
+  repo_hash="$(printf '%s' "$repo_root" | sha256sum | awk '{print $1}')"
+
+  mkdir -p "$CACHE_DIR"
+  LAST_MESSAGE_FILE="${CACHE_DIR}/${repo_slug}-${repo_hash}.last-message"
+}
+
+load_last_commit_message() {
+  if [[ -f "$LAST_MESSAGE_FILE" ]]; then
+    cat "$LAST_MESSAGE_FILE"
+  fi
+}
+
+save_last_commit_message() {
+  local message="$1"
+  printf '%s\n' "$message" > "$LAST_MESSAGE_FILE"
 }
 
 pick_random() {
@@ -180,23 +205,37 @@ main() {
     exit 1
   fi
 
+  init_repo_cache
+
   if [[ "$SKIP_BRANCH_CHECK" -eq 1 ]]; then
     echo "Bypass actif: vérification/création de branche ignorée."
   else
     ensure_branch
   fi
 
-  local type emoji scope description commit_message
+  local type emoji scope description commit_message previous_message
 
-  type="$(select_type)"
-  emoji="$(emoji_for_type "$type")"
-  scope="$(read_scope)"
-  description="$(read_description)"
+  previous_message="$(load_last_commit_message || true)"
+  if [[ -n "$previous_message" ]]; then
+    echo "Message précédent détecté:"
+    echo "$previous_message"
+    echo
+    if confirm "Réutiliser ce message de commit ?"; then
+      commit_message="$previous_message"
+    fi
+  fi
 
-  if [[ -n "$scope" ]]; then
-    commit_message="$emoji $type($scope): $description"
-  else
-    commit_message="$emoji $type: $description"
+  if [[ -z "${commit_message:-}" ]]; then
+    type="$(select_type)"
+    emoji="$(emoji_for_type "$type")"
+    scope="$(read_scope)"
+    description="$(read_description)"
+
+    if [[ -n "$scope" ]]; then
+      commit_message="$emoji $type($scope): $description"
+    else
+      commit_message="$emoji $type: $description"
+    fi
   fi
 
   echo
@@ -221,6 +260,7 @@ main() {
   fi
 
   git commit -m "$commit_message"
+  save_last_commit_message "$commit_message"
 
   if ! confirm "Exécuter git push ?"; then
     echo "Push annulé. Commit conservé localement."
