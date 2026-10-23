@@ -38,7 +38,7 @@ Exemples :
 Règles :
 
 - Le type suit Conventional Commits : `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`.
-- Pour un commit de type `feat`, prendre **aléatoirement** une icône parmi : 🍪 🍔 🍨 🍕 🥧 🍰 🍦 🧁 🍩 🍡 🍭 🦄 🍄 🍯 🍫 🍬 🥦 🌶️ 🍆 🥑 🐵 🐷 🐯 🦁 🐻 🐼 🐱 🦊 🦃 🐔 🐣 🐥 🦋 🌼 🌸 🌷 🌻 🐢 🌞 🐸 🤖 🧑‍💻 👨‍💻 👩‍💻 👩 🚀 💡 🦾 ✨ 🪄 ⚡ 🧬 🫶 👍 👍🏾 🧢 🧿 🗿 📈 🫟 🎈 🎸 🆕 🔨 🚧 🏅.
+- Pour un commit de type `feat`, prendre **aléatoirement** une icône parmi : 🍪 🍔 🍨 🍕 🥧 🍰 🍦 🧁 🍩 🍡 🍭 🦄 🍄 🍯 🍫 🍬 🥦 🌶️ 🍆 🥑 🐵 🐷 🐯 🦁 🐻 🐼 🐱 🦊 🦃 🐔 🐣 🐥 🦋 🌼 🌸 🌷 🌻 🐢 🌞 🐸 🤖 🧑‍💻 👨‍💻 👩‍💻 👩 🚀 💡 🦾 ✨ 🪄 ⚡ 🧬 🫶 👍 👍🏾 🧢 🧿 🗿 📈 🫟 🎈 🎸 🆕 🔨 🏅.
 - Pour un commit de type `fix`, prendre **aléatoirement** une icône parmi : 🐛 🐝 🕷️ 🐞 🐜.
 - Pour les autres types, l'emoji doit refléter le type (📝 pour `docs`, etc.).
 - La description doit être courte, à l'impératif, sans majuscule initiale ni point final.
